@@ -19,8 +19,6 @@ ALTER TABLE [dbo].[todos] ADD  DEFAULT ((0)) FOR [completed]
 GO
 ALTER TABLE [dbo].[todos] ADD  DEFAULT ('public') FOR [owner_id]
 GO
-ALTER TABLE [dbo].[todos] ADD  DEFAULT ('public') FOR [owner_id]
-GO
 ALTER TABLE [dbo].[todos] ADD  DEFAULT ((0)) FOR [inprogress]
 GO
 
